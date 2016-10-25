@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <style>
+.w3-sidenav a {padding:16px;font-weight:bold}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+   
+        * {
+      font-family: centurygothic;
+    }
+        
+</style>
+    </head>
+    
+    <body>
+        
+<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Close X</a>
+  <a href="index.html">Home</a>
+  <a href="portfolio.html">Portfolio</a>
+    <a href="#Contact">Contact</a>
+    
+</nav>
+
+<div class="w3-main">
+
+<header class="w3-container w3-dark-grey w3-padding-16" style="padding-left:12px">
+    <h1 class="w3-xxlarge w3-padding-16 w3-opennav  w3-large" onclick="w3_open()" style="color:white; font-family:centurygothic"><a name="Home"> &#9776; &nbsp; &nbsp; Mira Staykova</a></h1>
+</header>
+
+      <div class="w3-container">
+  <h1 style="font-family:centurygothic">PORTFOLIO</h1>
+</div>
+    
+    <div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card-2">
+        <a target="_blank" href="http://hacknyu.org/p/modules/core/img/partners/dfa.png">
+      <img src="http://hacknyu.org/p/modules/core/img/partners/dfa.png" alt="Trolltunga Norway" width="300" height="200">
+        </a>
+      <div class="w3-container">
+        <h5>Design for America</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+        <a target="_blank" href="http://hacknyu.org/p/modules/core/img/partners/dfa.png">
+      <img src="https://www.merrittislandnow.com/images/merrittislandwriter.jpeg" alt="Forest" width="300" height="200">
+        </a>
+      <div class="w3-container">
+        <h5>Writings</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+        <a target="_blank" href="http://hacknyu.org/p/modules/core/img/partners/dfa.png">
+     <img src="https://doximity-res.cloudinary.com/image/upload/v1435263699/nbm1pezawdx6se4royvd.png" alt="Forest" width="300" height="200">
+        </a>
+      <div class="w3-container">
+        <h5>AMITA</h5>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <br/>
+    <br/>
+    
+  <footer class="w3-container w3-dark-grey w3-padding-32" style="padding-left:32px">
+<center> 
+<h4 style="font-family:centurygothic"><a name="Contact">Get in Touch</a></h4>
+  <p>(630)804-9104 | <i class="fa fa-envelope w3-small"></i> mirastaykova@gmail.com | www.linkedin.com/in/mirastaykova </p> 
+</center>
+</footer>  
+    
+    <script>
+// Open and close the sidenav on medium and small screens
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+    
+</body>     
+</html>
