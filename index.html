@@ -5,60 +5,45 @@
 <head>
 <link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    </head>
+
     <style>
 .w3-sidenav a {padding:16px;font-weight:bold}
-</style>
-<body>
-<style>
+
+.city {display:none;}
+        
     * {
       font-family: centurygothic;
     }
 </style>
-
-<nav class="w3-sidenav w3-collapse w3-white w3-animate-left w3-card-2" style="z-index:3;width:250px;" id="mySidenav">
-  
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-text-teal w3-hide-large w3-closenav w3-large">Close <i class="fa fa-remove"></i></a>
-  <a href="#Home"><i class="fa fa-home w3-xxlarge"></i></a>
+    </head>
+    <body>
+<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Close X</a>
+  <a href="#Home">Home</a>
   <a href="#About Me">About Me</a>
   <a href="#Education">Education</a>
   <a href="#Experience">Experience</a>
   <a href="#Leadership">Leadership</a>
   <a href="#Involvement">Involvement</a>
   <a href="#Skills">Skills</a>
-  <a href="#Contact">Contact</a>
+  <a href="portfolio.html">Portfolio</a>
+    <a href="#Contact">Contact</a>
+    
 </nav>
 
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+<div class="w3-main">
 
-<div class="w3-main" style="margin-left:250px;">
-
-<div id="myTop" class="w3-top w3-container w3-padding-16 w3-dark-grey w3-large">
-  <i class="fa fa-bars w3-opennav w3-hide-large w3-xlarge w3-margin-left w3-margin-right" onclick="w3_open()"></i>
-  <span id="myIntro" class="w3-hide">Mira Staykova</span>
-</div>
-
-<header class="w3-container w3-dark-grey w3-padding-32" style="padding-left:32px">
-  <h1 class="w3-xxxlarge w3-padding-16" style="font-family:centurygothic"><a name="Home"> Mira Staykova</a></h1>
+<header class="w3-container w3-dark-grey w3-padding-16" style="padding-left:12px">
+    <h1 class="w3-xxlarge w3-padding-16 w3-opennav  w3-large" onclick="w3_open()" style="color:white; font-family:centurygothic"><a name="Home"> &#9776; &nbsp; &nbsp; Mira Staykova</a></h1>
 </header>
 
-<span><div class="w3-display-container">
-    <img src="http://cdn.c.photoshelter.com/img-get2/I00000gl9IVZcCaw/fit=1000x750/Teton-Sunrise-Panoramic.jpg" alt="Lights">
-    </div></span>
-
-<div class="w3-display-middle w3-padding-32" style="padding-left:32px">
-    <center>
-        <h2 style="font-family:centurygothic color:white"><a name="About Me">About Me</a></h2> </center>
-
-<center>
-    <p style="color:white">To keep it simple: I'm passionate about people – how they learn, how they are affected by laws and policies, how they use services, and how they interact with their environment.</p> </center>
-<div>
-    <center><p style="color:white">I believe in pursuing a human-centered approach to problem solving and design. I'm always looking for new opportunities to help businesses and organizations effectively impact people</p> 
-    </center>
-</div>
+<div class="w3-display-container">
+    <img src="https://static.pexels.com/photos/2855/landscape-mountains-nature-lake.jpg" class="w3-opacity-max" alt="Lights" height="400px" width="100%">
+    <div class="w3-display-middle w3-large">
+        <center><h2 style="color:#616161; font-family:centurygothic"> <a name="About Me">About Me</a></h2></center>
+    <center><p style="color:#616161">To keep it simple: I'm passionate about people – how they learn, how they are affected by laws and policies, how they use services, and how they interact with their environment.</p></center>
+    <center><p style="color:#616161">I believe in pursuing a human-centered approach to problem solving and design. I'm always looking for new opportunities to help businesses and organizations effectively impact people</p> </center></div>
     </div>
-
 
 <div class="w3-container">
 <h2 style="font-family:centurygothic"> <a name="Education">Education</a> </h2>
@@ -74,7 +59,7 @@ Evanston, IL
  <li>Dean’s List: 2015, 2016</li>
 </ul>
 <br>
-<img src="wildcats.jpg" style="width:100%;margin:20px 0" alt="Wildcats">
+<img src="wildcats.jpg" style="height:100 width:200; margin:20px 0" alt="Wildcats">
 
 <hr>
 <div class="w3-container w3-padding-32" style="padding-left:32px">
@@ -135,13 +120,77 @@ Albert Einstein</p>
 </div>
 
 <hr>
+
 <div class="w3-container w3-padding-32" style="padding-left:32px">
 <h2 style="font-family:centurygothic"><a name="Involvement">Involvement</a></h2>
+      <ul style="list-style:none">
+<li><b>Design for America</b>, September 2016-Present</li>
+    <li><b>Pi Beta Phi Women's Fraternity</b>, January 2015-Present</li>
+           <li><b>International Gender Equality Movement</b>, September 2014-Present</li>
+          <li><b>Quest Bridge Ambassador and Mentor</b>, May 2014-Present</li></ul> 
+        
 </div>
 
 <hr>
+
 <div class="w3-container w3-padding-32" style="padding-left:32px">
 <h2 style="font-family:centurygothic"><a name="Skills">Skills</a></h2>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tech');">
+      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Tech</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Design');">
+      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Design</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Social');">
+      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Social</div>
+    </a>
+       <a href="javascript:void(0)" onclick="openCity(event, 'Languages');">
+      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Languages</div>
+    </a>
+  </div>
+    
+
+    <center><div id="Tech" class="w3-container city">
+    <ul style="list-style:none">
+        <li>Microsoft Office</li>
+        <li>HTML</li>
+    <li>CSS</li>
+    <li>Java Script</li>
+        <li>Stata</li></ul></div>
+  
+     </center>
+  <center>
+      <div id="Design" class="w3-container city">
+       <ul style="list-style:none">
+<li>Adobe Photoshop</li>
+    <li>Sketch</li>
+    <li>Adobe InDesign</li>
+    <li>Rapid Prototyping</li>
+</ul>
+  </div>
+      </center>
+<center>
+  <div id="Social" class="w3-container city">
+         <ul style="list-style:none">
+<li>Event Planning and Promotion</li>
+    <li>Fundraising</li>
+    <li>Social Media Management</li>
+    <li>Public Speaking</li>
+</ul>
+  </div>
+    </center>
+<center>
+    <div id="Languages" class="w3-container city">
+ <ul style="list-style:none">
+<li>Spanish</li>
+    <li>Bulgarian</li>
+</ul>
+  </div>
+    </center>
+
+</div>
 </div>
 
     <hr>
@@ -151,54 +200,37 @@ Albert Einstein</p>
     
     
 <hr>
-<div class="w3-container w3-padding-16 w3-card-2" style="background-color:#eee">
 <h3 style="font-family:centurygothic" class="w3-center">Have I Caught Your Attention?</h3>
 <br>
-<center>
+    <center>
 <div class="w3-dropdown-hover"><center>
-    <button class="w3-btn w3-padding-12 w3-dark-grey w3-center" style="width:98.5%">My Work »</button>
+    <button class="w3-btn w3-padding-12 w3-dark-grey w3-center" style="width:98.5%"><a href="portfolio.html">My Work »</a></button></center></div>
 <div class="w3-dropdown-content w3-border">
 <center><a href="#">ILEPI Policy Briefs</a>
     <a href="#">Design Work</a>
-    <a href="#">Internal Communication Proposal</a></center>
-  </div>
-</div>
-</div>
-</center>
-<br>
-
-</div>
+    <a href="#">Internal Communication Proposal</a></center></div>
+   
 <hr>
-
-<footer class="w3-container w3-dark-grey w3-padding-32" style="padding-left:32px">
+    <br/>
+    <br/>
+   
+<span><footer class="w3-container w3-dark-grey w3-padding-32" style="padding-left:32px">
 <center> 
 <h4 style="font-family:centurygothic"><a name="Contact">Get in Touch</a></h4>
   <p>(630)804-9104 | <i class="fa fa-envelope w3-small"></i> mirastaykova@gmail.com | www.linkedin.com/in/mirastaykova </p> 
 </center>
-</footer>
+    </footer></span>
+  
      
 <script>
 // Open and close the sidenav on medium and small screens
 function w3_open() {
     document.getElementById("mySidenav").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
 }
 function w3_close() {
-    document.getElementById("mySidenav").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
+    document.getElementById("mySidenav").style.display = "none";
 }
-
-// Change style of top container on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("myTop").classList.add("w3-card-4");
-        document.getElementById("myIntro").classList.add("w3-show-inline-block");
-    } else {
-        document.getElementById("myIntro").classList.remove("w3-show-inline-block");
-        document.getElementById("myTop").classList.remove("w3-card-4");
-    }
-}
+    
 
 // Accordions
 function myAccordion(id) {
@@ -212,7 +244,22 @@ function myAccordion(id) {
         x.previousElementSibling.className.replace(" w3-theme", "");
     }
 }
+    
+// Skills
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-border-dark-grey", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-border-dark-grey";
+}
+    
 </script>
-     
-</body>
+</body>    
 </html>
