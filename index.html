@@ -4,15 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <link rel="stylesheet" href="w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <style>
+        .mySlides {display:none;}
 .w3-sidenav a {padding:16px;font-weight:bold}
 
 .city {display:none;}
-        
-    * {
-      font-family: centurygothic;
+    
+        h1,h2,h3,h4,h5 {
+            font-family: 'Poiret One', cursive;
+        }
+    body {
+     font-family: 'Lato', sans-serif;
     }
 </style>
     </head>
@@ -20,12 +26,6 @@
 <nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Close X</a>
   <a href="#Home">Home</a>
-  <a href="#About Me">About Me</a>
-  <a href="#Education">Education</a>
-  <a href="#Experience">Experience</a>
-  <a href="#Leadership">Leadership</a>
-  <a href="#Involvement">Involvement</a>
-  <a href="#Skills">Skills</a>
   <a href="portfolio.html">Portfolio</a>
     <a href="#Contact">Contact</a>
     
@@ -34,19 +34,19 @@
 <div class="w3-main">
 
 <header class="w3-container w3-dark-grey w3-padding-16" style="padding-left:12px">
-    <h1 class="w3-xxlarge w3-padding-16 w3-opennav  w3-large" onclick="w3_open()" style="color:white; font-family:centurygothic"><a name="Home"> &#9776; &nbsp; &nbsp; Mira Staykova</a></h1>
+    <h1 class="w3-xxlarge w3-padding-16 w3-opennav  w3-large" onclick="w3_open()" style="color:white"><a name="Home"> &#9776; &nbsp; &nbsp; Mira Staykova</a></h1>
 </header>
 
 <div class="w3-display-container">
-    <img src="https://static.pexels.com/photos/2855/landscape-mountains-nature-lake.jpg" class="w3-opacity-max" alt="Lights" height="400px" width="100%">
+    <img src="images/rocks.jpg" class="w3-opacity-max" alt="Lights" height="400px" width="100%">
     <div class="w3-display-middle w3-large">
-        <center><h2 style="color:#616161; font-family:centurygothic"> <a name="About Me">About Me</a></h2></center>
-    <center><p style="color:#616161">To keep it simple: I'm passionate about people – how they learn, how they are affected by laws and policies, how they use services, and how they interact with their environment.</p></center>
-    <center><p style="color:#616161">I believe in pursuing a human-centered approach to problem solving and design. I'm always looking for new opportunities to help businesses and organizations effectively impact people</p> </center></div>
+        <center><h1 style="color:white"> <a name="About Me">About Me</a></h2></center>
+    <center><p style="color:white">To keep it simple: I'm passionate about people – how they learn, how they are affected by laws and policies, how they use services, and how they interact with their environment.</p></center>
+    <center><p style="color:white">I believe in pursuing a human-centered approach to problem solving and design. I'm always looking for new opportunities to help businesses and organizations effectively impact people</p> </center></div>
     </div>
 
 <div class="w3-container">
-<h2 style="font-family:centurygothic"> <a name="Education">Education</a> </h2>
+<h2> <a name="Education">Education</a> </h2>
 </div>
 
 <ul class="w3-leftbar w3-theme-border" style="list-style:none">
@@ -58,14 +58,22 @@ Evanston, IL
  <li>Relevant Coursework: Economics of Inequality, Community Development, Program Design and Implementation, Statistics, Qualitative Research Methods</li>
  <li>Dean’s List: 2015, 2016</li>
 </ul>
-<br>
-<img src="wildcats.jpg" style="height:100 width:200; margin:20px 0" alt="Wildcats">
-
 <hr>
 <div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2 style="font-family:centurygothic"><a name="Experience">Work Experience</a></h2>
+<h2><a name="Experience">Work Experience</a></h2>
+    
+<h5><b>BRicK Partners, LLC.</b> Evanston, Illinois</h5>
 
-<h5 style="font-family:centurygothic"><b>Illinois Economic Policy Institute</b> Country Side, Illinois</h5>
+<ul style="list-style:none">
+<li><b>Intern</b>, September 2016-December 2016</li></ul>
+<ul style="list-style:disc">
+<li> Monitor and oversee the financial activity and impact of 70 revitalization grant awardees in accordance with the Attorney General</li>
+<li>Design and create materials for presentations to community members and financial institutions to gather stakeholder investment for development opportunities in the south suburbs for Cook County's Project Progress</li>
+<li>Analyze national data to inform urban planning and housing solutions for major metropolitan areas such as Kansas City, Twin Cities, and Chicago </li>
+<li>Update and maintain the company website</li>
+</ul>
+
+<h5><b>Illinois Economic Policy Institute</b> Country Side, Illinois</h5>
 
 <ul style="list-style:none">
 <li><b>Research Intern</b>, June 2016-September 2016</li></ul>
@@ -75,7 +83,7 @@ Evanston, IL
 <li>Designed and maintain an online information sharing platform to increase efficiency of internal communication and collaboration between the organization and its partners</li>
 </ul>
 
-<h5 style="font-family:centurygothic"><b>The School of Education and Social Policy</b> Evanston, Illinois</h5>
+<h5><b>The School of Education and Social Policy</b> Evanston, Illinois</h5>
 <ul style="list-style:none">
 <li><b>Student Employee Coordinator</b>, September 2014-Present</li></ul>
 <ul style="list-style:disc">
@@ -84,20 +92,30 @@ Evanston, IL
 <li>Ensure smooth operations and perform organizational tasks </li>
 </ul>
 
-<h5 style="font-family:centurygothic"><b>Roger's Park Business Alliance</b> Chicago, Illinois</h5>
+<h5><b>Roger's Park Business Alliance</b> Chicago, Illinois</h5>
 <ul style="list-style:none">
 <li><b>Economic Development Intern</b>, December 2014-March 2015</li></ul>
 <ul style="list-style:disc">
 <li>Survey the main business districts of Roger's Park for their need of small and middle-sized businesses for marketing and technological help</li>
 <li>Develop and implement free educational workshops to teach businesses how to effectively use social media and create websites to ensure success of small local business in a competitive environment </li>
 </ul>
+    
+<h5><b>Ronald McDonald House Charities of Chicagoland and Northwest Indiana</b> Chicago, Illinois</h5>
+<ul style="list-style:none">
+<li><b>Intern</b>, November 2014-May 2016</li></ul>
+<ul style="list-style:disc">
+<li> Serve as first line of communication for families of children with extreme medical needs to offer compassion, support, and services to promote smooth recovery</li>
+<li>Collaborate with social workers to assess the financial needs and accommodations of families to ensure proper services are offered</li>
+<li>Coordinate volunteer services and duties from house maintenance to cooking meals for the residents of the house</li>
+<li> Create educational and recreational programming for family members staying at the house to promote wellness and a sense of community</li>
+</ul>
 </div>
 
 <hr>
 <div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2 style="font-family:centurygothic"><a name="Leadership">Leadership</a></h2>
+<h2><a name="Leadership">Leadership</a></h2>
     
-<h5 style="font-family:centurygothic"><b>School of Education and Social Policy Leadership Board</b> Evanston, Illinois</h5>
+<h5><b>School of Education and Social Policy Leadership Board</b> Evanston, Illinois</h5>
     <ul style="list-style:none">
 <li><b>Board Chair</b>, May 2015-Present</li></ul>
 <ul style="list-style:disc">
@@ -105,7 +123,7 @@ Evanston, IL
 <li>Plan and oversee six events per academic quarter focused on providing academic, professional development, and community resources to undergraduate students </li>
 </ul>
     
- <h5 style="font-family:centurygothic"><b>Students for Sensible Drug Policy</b> Evanston, Illinois</h5>
+ <h5><b>Students for Sensible Drug Policy</b> Evanston, Illinois</h5>
     <ul style="list-style:none">
 <li><b>VP of Community Engagement</b>, June 2015-Present</li></ul>
 <ul style="list-style:disc">
@@ -122,7 +140,7 @@ Albert Einstein</p>
 <hr>
 
 <div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2 style="font-family:centurygothic"><a name="Involvement">Involvement</a></h2>
+<h2><a name="Involvement">Involvement</a></h2>
       <ul style="list-style:none">
 <li><b>Design for America</b>, September 2016-Present</li>
     <li><b>Pi Beta Phi Women's Fraternity</b>, January 2015-Present</li>
@@ -134,7 +152,7 @@ Albert Einstein</p>
 <hr>
 
 <div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2 style="font-family:centurygothic"><a name="Skills">Skills</a></h2>
+<h2><a name="Skills">Skills</a></h2>
 
   <div class="w3-row">
     <a href="javascript:void(0)" onclick="openCity(event, 'Tech');">
@@ -195,12 +213,66 @@ Albert Einstein</p>
 
     <hr>
 <div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2 style="font-family:centurygothic"><a name="Skills">Interests</a></h2>
+<h2><a name="Skills">What I Love</a></h2>
+</div>
+    <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/wildcats.jpg" style="width:100%">
+         <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+             The Wildcats! </div></div>
+        
+<div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/Meditation.jpg" style="width:100%">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+            Meditating </div></div>
+       
+    <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/mountainsf.jpg" style="width:100%">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+            The Mountains</div></div>
+        
+            <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+<img src="images/Art.jpg" style="width:100%">
+         <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+             Art</div></div>
+            
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/adventure.jpeg" style="width:100%">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+            Adventure!</div></div>
+            
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/Barcelona.jpg" style="width:100%">
+            <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">Barcelona</div></div>
+            
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+    <img src="images/cubs.jpg" style="width:100%">
+         <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+             The cubbies!</div></div>
+        
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/Desert.jpg" style="width:100%">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+            Desert runs!</div></div>
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/myfamily.jpg" style="width:100%">
+            <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">My family</div></div>
+   
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+        <img src="images/ski.jpg" style="width:100%">
+        <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">
+            Skiing</div></div>
+        
+        <div class="w3-content mySlides w3-display-container w3-section" style="max-width:500px">
+  <img src="images/Pizza.jpg" style="width:100%">
+            <div class="w3-display-bottomleft w3-container w3-padding-16 w3-black">Pizza, obviously!</div></div>
+        
+        
 </div>
     
     
+    
 <hr>
-<h3 style="font-family:centurygothic" class="w3-center">Have I Caught Your Attention?</h3>
+<h3 class="w3-center">Have I Caught Your Attention?</h3>
 <br>
     <center>
 <div class="w3-dropdown-hover"><center>
@@ -216,13 +288,28 @@ Albert Einstein</p>
    
 <span><footer class="w3-container w3-dark-grey w3-padding-32" style="padding-left:32px">
 <center> 
-<h4 style="font-family:centurygothic"><a name="Contact">Get in Touch</a></h4>
+<h4><a name="Contact">Get in Touch</a></h4>
   <p>(630)804-9104 | <i class="fa fa-envelope w3-small"></i> mirastaykova@gmail.com | www.linkedin.com/in/mirastaykova </p> 
 </center>
     </footer></span>
   
      
 <script>
+    // Slide show
+    var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
 // Open and close the sidenav on medium and small screens
 function w3_open() {
     document.getElementById("mySidenav").style.display = "block";
