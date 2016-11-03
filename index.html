@@ -4,214 +4,64 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <link rel="stylesheet" href="w3.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Poiret+One" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <style>
         .mySlides {display:none;}
 .w3-sidenav a {padding:16px;font-weight:bold}
-
+        
 .city {display:none;}
-    
+
         h1,h2,h3,h4,h5 {
-            font-family: 'Poiret One', cursive;
+           font-family: 'Oswald', sans-serif;
         }
     body {
      font-family: 'Lato', sans-serif;
     }
+        /* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url(/images/rocks.jpg);
+    min-height: 600px;
+}
 </style>
     </head>
-    <body>
-<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Close X</a>
-  <a href="#Home">Home</a>
-  <a href="portfolio.html">Portfolio</a>
-    <a href="#Contact">Contact</a>
-    
-</nav>
-
-<div class="w3-main">
-
-<header class="w3-container w3-dark-grey w3-padding-16" style="padding-left:12px">
-    <h1 class="w3-xxlarge w3-padding-16 w3-opennav  w3-large" onclick="w3_open()" style="color:white"><a name="Home"> &#9776; &nbsp; &nbsp; Mira Staykova</a></h1>
-</header>
-
-<div class="w3-display-container">
-    <img src="images/rocks.jpg" class="w3-opacity-max" alt="Lights" height="400px" width="100%">
-    <div class="w3-display-middle w3-large">
-        <center><h1 style="color:white"> <a name="About Me">About Me</a></h2></center>
-    <center><p style="color:white">To keep it simple: I'm passionate about people – how they learn, how they are affected by laws and policies, how they use services, and how they interact with their environment.</p></center>
-    <center><p style="color:white">I believe in pursuing a human-centered approach to problem solving and design. I'm always looking for new opportunities to help businesses and organizations effectively impact people</p> </center></div>
-    </div>
-
-<div class="w3-container">
-<h2> <a name="Education">Education</a> </h2>
+    <body> 
+        <!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <ul class="w3-navbar" id="myNavbar">
+    <li><a href="index.html">HOME</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+   <li><a href="resume.html">RESUME</a></li> 
+      <li><a href="#Contact">CONTACT</a></li>
+  </ul>
 </div>
-
-<ul class="w3-leftbar w3-theme-border" style="list-style:none">
- <li>Northwestern University School of Education and Social Policy (SESP)
-Evanston, IL
-</li>
- <li>Bachelors of Science in Social Policy | Expected June 2018</li>
- <li>Cumulative GPA: 3.6/4.0</li>
- <li>Relevant Coursework: Economics of Inequality, Community Development, Program Design and Implementation, Statistics, Qualitative Research Methods</li>
- <li>Dean’s List: 2015, 2016</li>
-</ul>
-<hr>
-<div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2><a name="Experience">Work Experience</a></h2>
-    
-<h5><b>BRicK Partners, LLC.</b> Evanston, Illinois</h5>
-
-<ul style="list-style:none">
-<li><b>Intern</b>, September 2016-December 2016</li></ul>
-<ul style="list-style:disc">
-<li> Monitor and oversee the financial activity and impact of 70 revitalization grant awardees in accordance with the Attorney General</li>
-<li>Design and create materials for presentations to community members and financial institutions to gather stakeholder investment for development opportunities in the south suburbs for Cook County's Project Progress</li>
-<li>Analyze national data to inform urban planning and housing solutions for major metropolitan areas such as Kansas City, Twin Cities, and Chicago </li>
-<li>Update and maintain the company website</li>
-</ul>
-
-<h5><b>Illinois Economic Policy Institute</b> Country Side, Illinois</h5>
-
-<ul style="list-style:none">
-<li><b>Research Intern</b>, June 2016-September 2016</li></ul>
-<ul style="list-style:disc">
-<li> Analyze data using Stata and Excel to evaluate how policies impact areas such as transportation, education, economic growth, and employment in Illinois and the Midwest</li>
-<li>Create comprehensive recommendations and criticisms of policies using the data collected and publish them for the use of future advocacy work</li>
-<li>Designed and maintain an online information sharing platform to increase efficiency of internal communication and collaboration between the organization and its partners</li>
-</ul>
-
-<h5><b>The School of Education and Social Policy</b> Evanston, Illinois</h5>
-<ul style="list-style:none">
-<li><b>Student Employee Coordinator</b>, September 2014-Present</li></ul>
-<ul style="list-style:disc">
-<li>Promoted to manage and train a team of four student workers and coordinate their office responsibilities</li>
-<li>Advise new and potential students about academic and professional opportunities at the school as a student ambassador</li>
-<li>Ensure smooth operations and perform organizational tasks </li>
-</ul>
-
-<h5><b>Roger's Park Business Alliance</b> Chicago, Illinois</h5>
-<ul style="list-style:none">
-<li><b>Economic Development Intern</b>, December 2014-March 2015</li></ul>
-<ul style="list-style:disc">
-<li>Survey the main business districts of Roger's Park for their need of small and middle-sized businesses for marketing and technological help</li>
-<li>Develop and implement free educational workshops to teach businesses how to effectively use social media and create websites to ensure success of small local business in a competitive environment </li>
-</ul>
-    
-<h5><b>Ronald McDonald House Charities of Chicagoland and Northwest Indiana</b> Chicago, Illinois</h5>
-<ul style="list-style:none">
-<li><b>Intern</b>, November 2014-May 2016</li></ul>
-<ul style="list-style:disc">
-<li> Serve as first line of communication for families of children with extreme medical needs to offer compassion, support, and services to promote smooth recovery</li>
-<li>Collaborate with social workers to assess the financial needs and accommodations of families to ensure proper services are offered</li>
-<li>Coordinate volunteer services and duties from house maintenance to cooking meals for the residents of the house</li>
-<li> Create educational and recreational programming for family members staying at the house to promote wellness and a sense of community</li>
-</ul>
-</div>
-
-<hr>
-<div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2><a name="Leadership">Leadership</a></h2>
-    
-<h5><b>School of Education and Social Policy Leadership Board</b> Evanston, Illinois</h5>
-    <ul style="list-style:none">
-<li><b>Board Chair</b>, May 2015-Present</li></ul>
-<ul style="list-style:disc">
-<li>Design and maintain a mentorship program and curriculum to establish relationships between current students and alumni of the school that is entering its 3rd year of successful implementation and expansion</li>
-<li>Plan and oversee six events per academic quarter focused on providing academic, professional development, and community resources to undergraduate students </li>
-</ul>
-    
- <h5><b>Students for Sensible Drug Policy</b> Evanston, Illinois</h5>
-    <ul style="list-style:none">
-<li><b>VP of Community Engagement</b>, June 2015-Present</li></ul>
-<ul style="list-style:disc">
-<li>Connect Northwestern students with non-profits and advocacy groups in Chicago working towards reforming discriminatory policies through service events and volunteer opportunities</li>
-<li>Organized and moderated 4 educational panels on issues surrounding mass incarceration and stigma</li>
-</ul>   
-
-
-<div class="w3-container w3-light-grey w3-leftbar">
-<p><i>Make it as simple as possible, but not simpler.</i><br>
-Albert Einstein</p>
-</div>
-
-<hr>
-
-<div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2><a name="Involvement">Involvement</a></h2>
-      <ul style="list-style:none">
-<li><b>Design for America</b>, September 2016-Present</li>
-    <li><b>Pi Beta Phi Women's Fraternity</b>, January 2015-Present</li>
-           <li><b>International Gender Equality Movement</b>, September 2014-Present</li>
-          <li><b>Quest Bridge Ambassador and Mentor</b>, May 2014-Present</li></ul> 
         
+        
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity">MIRA<span class="w3-hide-small">STAYKOVA</span>
+      </span>
 </div>
+        </div>
+        
 
-<hr>
-
-<div class="w3-container w3-padding-32" style="padding-left:32px">
-<h2><a name="Skills">Skills</a></h2>
-
-  <div class="w3-row">
-    <a href="javascript:void(0)" onclick="openCity(event, 'Tech');">
-      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Tech</div>
-    </a>
-    <a href="javascript:void(0)" onclick="openCity(event, 'Design');">
-      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Design</div>
-    </a>
-    <a href="javascript:void(0)" onclick="openCity(event, 'Social');">
-      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Social</div>
-    </a>
-       <a href="javascript:void(0)" onclick="openCity(event, 'Languages');">
-      <div class="w3-quarter tablink w3-bottombar w3-hover-light-grey w3-padding w3-large">Languages</div>
-    </a>
-  </div>
-    
-
-    <center><div id="Tech" class="w3-container city">
-    <ul style="list-style:none">
-        <li>Microsoft Office</li>
-        <li>HTML</li>
-    <li>CSS</li>
-    <li>Java Script</li>
-        <li>Stata</li></ul></div>
-  
-     </center>
-  <center>
-      <div id="Design" class="w3-container city">
-       <ul style="list-style:none">
-<li>Adobe Photoshop</li>
-    <li>Sketch</li>
-    <li>Adobe InDesign</li>
-    <li>Rapid Prototyping</li>
-</ul>
-  </div>
-      </center>
-<center>
-  <div id="Social" class="w3-container city">
-         <ul style="list-style:none">
-<li>Event Planning and Promotion</li>
-    <li>Fundraising</li>
-    <li>Social Media Management</li>
-    <li>Public Speaking</li>
-</ul>
-  </div>
-    </center>
-<center>
-    <div id="Languages" class="w3-container city">
- <ul style="list-style:none">
-<li>Spanish</li>
-    <li>Bulgarian</li>
-</ul>
-  </div>
-    </center>
-
-</div>
-</div>
-
-    <hr>
+        <div class="w3-content w3-container w3-padding-64">
+      <center><h1>What Drives Me?</h1></center>
+    <center><p>To keep it simple: I'm passionate about people – how they learn, how they are affected by laws and policies, how they use services, and how they interact with their environment.</p></center>
+    <center><p>I believe in pursuing a human-centered approach to problem solving and design. I'm always looking for new opportunities to help businesses and organizations effectively impact people</p> </center></div>
+        
 <div class="w3-container w3-padding-32" style="padding-left:32px">
 <h2><a name="Skills">What I Love</a></h2>
 </div>
@@ -272,7 +122,7 @@ Albert Einstein</p>
     
     
 <hr>
-<h3 class="w3-center">Have I Caught Your Attention?</h3>
+<h3 class="w3-center">I'm not ALL talk, I've also done some things:</h3>
 <br>
     <center>
 <div class="w3-dropdown-hover"><center>
@@ -347,6 +197,20 @@ function openCity(evt, cityName) {
   evt.currentTarget.firstElementChild.className += " w3-border-dark-grey";
 }
     
+    // Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-navbar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-white", "");
+    }
+}
+    
 </script>
+        </center>
+    </div>
+        </div>
 </body>    
 </html>
